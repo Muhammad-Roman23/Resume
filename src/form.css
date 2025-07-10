@@ -1,0 +1,240 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: poppins;
+  list-style: none;
+}
+
+.parent {
+  height: 100%;
+  padding: 20px;
+  background-color: #f4f6f8;
+  /* background: linear-gradient(to right, #0f2027, #203a43, #2c5364); */
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+.stepper{
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  padding: 20px;
+  border-radius: 7px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+}
+.icon {
+  width: 45px;
+  height: 45px;
+  background-color: white;
+  /* color: red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+}
+.spc{
+    width: 30px;
+    height: 30px;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+}
+
+.step {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+form {
+  background-color: #ffffff;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  border-radius: 7px;
+}
+.inputs1 {
+  width: 100%;
+  display: flex;
+  gap: 30px;
+}
+input {
+  padding: 20px;
+  border: 1px solid linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  border-radius: 10px;
+  outline: none;
+}
+
+.input-group {
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-group i {
+  position: absolute;
+  left: 20px;
+  /* color: rgba(3, 3, 113); */
+  color:#203a43 !important ;
+  font-size: 19px;
+}
+
+.input-group input {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 100%;
+  font-size: 14px;
+  padding: 20px 60px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.prev-btn{
+    background-color: #84848458;
+}
+.prev-btn,
+.next-btn {
+  border: 1px solid rgb(182, 182, 182);
+  padding: 10px 20px;
+  /* color: rgba(182, 182, 182, 182); */
+  color: black;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+.next-btn {
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: white;
+  border: none;
+}
+
+
+.head {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+h1 {
+  font-size: 25px;
+  font-weight: 500;
+}
+.head-icon {
+  font-size: 25px;
+  color: white !important;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+}
+.progress-bar {
+  height: 5px;
+  background: #e0e0e0;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.progress {
+  height: 100%;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  transition: width 0.4s ease;
+}
+h4 {
+  font-size: 20px;
+  font-weight: 500;
+}
+p {
+  color: rgb(233, 232, 232);
+}
+i {
+  color: #0f2027 !important;
+}
+.next-btn i {
+  color: white !important;
+}
+
+.last{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.add_more_btn{
+    width: 140px;
+    text-align: center;
+    /* background-color: #6f42c1; */
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+
+    padding: 10px 10px;
+    color: white;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+.add_more_btn i{
+    color: white !important;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+  /* background: rgb(237, 237, 237); */
+  /* background-color: #f4f6f8; */
+    /* border-radius: 10px; */
+}
+.lists{
+
+    width: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 6px;
+
+    padding: 20px;
+}
+.right_btn{
+    align-self: flex-end;
+}
+li{
+    font-weight: 400;
+    color: #0f2027;
+}
+.show-para{
+    font-weight: 500;
+    /* color: black; */
+    /* color: white; */
+    color: #0f2027;
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.title i{
+ 
+    margin-right: 10px;
+}
+
+
